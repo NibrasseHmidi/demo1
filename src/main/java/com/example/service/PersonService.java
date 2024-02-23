@@ -60,6 +60,16 @@ public class PersonService {
 		p.setFirstName("aicha");
 		p.setLastName("Hmidi");
 		persons.add(p);
+
+
+		
+		p = new Person();
+		p.setId("8");
+		p.setAge(55);
+		p.setFirstName("Habib");
+		p.setLastName("Hmidi");
+		persons.add(p);
+		
 		
 	}
 	public Person getPerson(String id) {
